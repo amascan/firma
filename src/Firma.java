@@ -8,4 +8,11 @@ public class Firma {
     double trimestrul_3;
     double trimestrul_4;
 
+    double venituritotale;
+    double venituriminime;
+    double veniturimaxime;
+
+public static void venituri(){
+
+    }
 }
