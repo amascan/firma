@@ -17,6 +17,7 @@ public class Fileread {
             String e;
             while ((e = bufIn.readLine()) != null) {
                 templist.add(e);
+       //         System.out.println(e);
             }
         } catch (IOException var11) {
             System.err.println(var11);
