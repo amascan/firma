@@ -10,8 +10,9 @@ public class MainF {
     public static void main(String[] args) {
         List<String> firme = new ArrayList<>();
         firme = Fileread.read("venituri.txt");
-        Venituri line = new Venituri(firme.get(2));
-        line.calculare();
-
+         for(int i=1;i<firme.size();i++){
+            Venituri line = new Venituri(firme.get(i));
+            line.calculare();
+        }
     }
 }
